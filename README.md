@@ -8,7 +8,7 @@ Each function should take an array of integers as a parameter. You can use this 
 
 ## Features
  - Sum of an array of integers. Assigned to Athena An.
- - Mean of an array of integers. Assigned to
+ - Mean of an array of integers. Assigned to Jared Wright.
  - Median of an array of integers. Assigned to Alvin Krisnanto Putra.
  - Mode of an array of integers. Assigned to Jaden Balogh.
 

@@ -1,4 +1,4 @@
-# capstone-htb-git-demo
+# Capstone Home Together B Git Demo
 Team capstone demo project for Home Together B.
 
 ## Features

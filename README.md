@@ -1,6 +1,11 @@
 # Capstone Home Together B Git Demo
 Team capstone demo project for Home Together B.
 
+## Function Input
+Each function should take an array of integers as a parameter. You can use this example array for testing your function:
+
+```int[] arr = { 1, 2, 3, 4 };```
+
 ## Features
  - Sum of an array of integers. Assigned to
  - Mean of an array of integers. Assigned to

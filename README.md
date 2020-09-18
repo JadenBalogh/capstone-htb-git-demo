@@ -4,7 +4,7 @@ Team capstone demo project for Home Together B.
 ## Features
  - Sum of an array of integers. Assigned to
  - Mean of an array of integers. Assigned to
- - Median of an array of integers. Assigned to
+ - Median of an array of integers. Assigned to Alvin Krisnanto Putra.
  - Mode of an array of integers. Assigned to Jaden Balogh.
 
 ## Contributors

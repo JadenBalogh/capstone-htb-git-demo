@@ -7,8 +7,8 @@ Each function should take an array of integers as a parameter. You can use this 
 ```int[] arr = { 1, 2, 3, 4 };```
 
 ## Features
- - Sum of an array of integers. Assigned to
- - Mean of an array of integers. Assigned to
+ - Sum of an array of integers. Assigned to Athena An.
+ - Mean of an array of integers. Assigned to Jared Wright.
  - Median of an array of integers. Assigned to Alvin Krisnanto Putra.
  - Mode of an array of integers. Assigned to Jaden Balogh.
 

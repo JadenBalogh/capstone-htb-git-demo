@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4 };
+        int[] arr = { 1, 2, 3, 3, 4 };
         System.out.println("Sum: " + getSum(arr));
         System.out.println("Mean: " + getMean(arr));
         System.out.println("Median: " + getMedian(arr));
@@ -30,7 +30,7 @@ public class Main {
         int[] myArr = new int[arr.length];
         System.arraycopy(arr, 0, myArr, 0, arr.length);
         Arrays.sort(myArr);
-        
+
         // Find the most frequently occurring integer (or the first in a tie)
         int mode = myArr[0];
         int maxCount = 0;

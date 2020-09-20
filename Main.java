@@ -19,20 +19,17 @@ public class Main {
         return 0;
     }
 
-
     // Assigned to Alvin
     public static float getMedian(int[] arr) {
-    	Arrays.sort(arr);
-    	if(arr.length%2 == 0) {//check if there are even amount of numbers
-			int mid = arr.length/2;
-			return (arr[mid]+arr[mid-1])/2;
-			}
-		else {
-			int mid = (int)(arr.length/2);
-			return arr[mid];
-			}
+        Arrays.sort(arr);
+        if (arr.length % 2 == 0) {// check if there are even amount of numbers
+            int mid = arr.length / 2;
+            return (arr[mid] + arr[mid - 1]) / 2;
+        } else {
+            int mid = (int) (arr.length / 2);
+            return arr[mid];
+        }
     }
-
 
     // Assigned to Jaden
     public static int getMode(int[] arr) {

@@ -19,8 +19,8 @@ public class MainTests {
     public void testMedian() {
     	int[] testOdd = { 1, 3, 3, 2, 4, 2, 3 };
     	int[] testEven = { 1, 2, 3, 2, 4, 2 };
-    	int expectedOdd = 3
-    	int expectedEven = 2
+    	int expectedOdd = 3;
+    	int expectedEven = 2;
         assertEquals(expectedOdd, Main.getMedian(testOdd));
     	assertEquals(expectedEven, Main.getMedian(testEven));
     }

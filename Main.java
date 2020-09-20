@@ -22,13 +22,13 @@ public class Main {
 
     // Assigned to Alvin
     public static float getMedian(int[] arr) {
-    	arr.sort();
-    	if(arr.length()%2 = 0) {//check if there are even amount of numbers
-			int mid = 1 + (int)(arr.length()/2);
+    	Arrays.sort(arr);
+    	if(arr.length%2 == 0) {//check if there are even amount of numbers
+			int mid = 1 + (int)(arr.length/2);
 			return (arr[mid]+arr[mid+1])/2;
 			}
 		else {
-			int mid = (int)(arr.length()/2);
+			int mid = (int)(arr.length/2);
 			return arr[mid];
 			}
     }

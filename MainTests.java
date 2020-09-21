@@ -5,7 +5,10 @@ public class MainTests {
     // Assigned to Athena
     @Test
     public void testSum() {
-        assertEquals(true, true);
+        int[] testSum = { 1, 2, 3, 4 };
+    int expectedSum = 10;
+    assertEquals(expectedSum, Main.getSum(testSum));
+  }
     }
 
     // Assigned to Jared

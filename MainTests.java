@@ -9,7 +9,7 @@ public class MainTests {
     int expectedSum = 10;
     assertEquals(expectedSum, Main.getSum(testSum));
   }
-    }
+    
 
     // Assigned to Jared
     @Test

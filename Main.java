@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,8 +21,31 @@ public class Main {
     }
 
     // Assigned to Jared
+    // computing Arithmetic Mean
     public static float getMean(int[] arr) {
-        return 0;
+        // Using BigDecimal due to potential large float division.
+        BigDecimal summedValues = new BigDecimal(0);
+
+        // Only calculate the mean if there is at least one entry in the array otherwise return 0.0
+        if (arr.length > 0) {
+            BigDecimal arrayLength = new BigDecimal(arr.length);
+
+            // Loop through the array summing all the values.
+            for (int i = 0; i < arr.length; i++) {
+                summedValues = summedValues.add(BigDecimal.valueOf(arr[i]));
+            }
+            // Divide the summed values by the number of values to get the mean.
+            summedValues = summedValues.divide(arrayLength, 20, RoundingMode.HALF_EVEN).stripTrailingZeros();
+        }
+        /*
+         * Narrowing (lossy) conversion from BigDecimal to float; floatValue will return
+         * an infinity if the BigDecimal magnitude is too large for float. However
+         * magnitude should never be that large as the limitations on the size of the
+         * ints in the array passed to the function will act as a bound. Will return 0.0
+         * if passed an empty array & if the average value is exactly 0.0.
+         */
+
+        return (summedValues.floatValue());
     }
 
     // Assigned to Alvin

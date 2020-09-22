@@ -11,7 +11,9 @@ public class MainTests {
     // Assigned to Jared
     @Test
     public void testMean() {
-        assertEquals(true, true);
+        int[] testArr = { 1, 19, 3, 220, 4, 2, 33 };
+        float expectedMean = (float) 40.285713;
+        assertEquals(expectedMean, Main.getMean(testArr));
     }
 
     // Assigned to Alvin

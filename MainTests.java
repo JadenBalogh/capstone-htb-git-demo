@@ -8,8 +8,7 @@ public class MainTests {
         int[] testSum = { 1, 2, 3, 4 };
         int expectedSum = 10;
         assertEquals(expectedSum, Main.getSum(testSum));
-  }
-    
+    }
 
     // Assigned to Jared
     @Test
@@ -22,12 +21,12 @@ public class MainTests {
     // Assigned to Alvin
     @Test
     public void testMedian() {
-    	int[] testOdd = { 1, 3, 3, 2, 4, 2, 3 }; //122 3 334
-    	int[] testEven = { 1, 2, 3, 2, 4, 2 }; //12 22 34
-    	int expectedOdd = 3;
-    	int expectedEven = 2;
+        int[] testOdd = { 1, 3, 3, 2, 4, 2, 3 }; // 122 3 334
+        int[] testEven = { 1, 2, 3, 2, 4, 2 }; // 12 22 34
+        int expectedOdd = 3;
+        int expectedEven = 2;
         assertEquals(expectedOdd, Main.getMedian(testOdd));
-    	assertEquals(expectedEven, Main.getMedian(testEven));
+        assertEquals(expectedEven, Main.getMedian(testEven));
     }
 
     // Assigned to Jaden

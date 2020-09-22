@@ -12,7 +12,7 @@ public class MainTests {
     @Test
     public void testMean() {
         int[] testArr = { 1, 19, 3, 220, 4, 2, 33 };
-        int expectedMean = 40.285713;
+        float expectedMean = 40.285713;
         assertEquals(expectedMean, Main.getMean(testArr));
     }
 

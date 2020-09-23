@@ -21,12 +21,12 @@ public class Main {
     }
 
     // Assigned to Jared
+    // computing Arithmetic Mean
     public static float getMean(int[] arr) {
         // Using BigDecimal due to potential large float division.
         BigDecimal summedValues = new BigDecimal(0);
 
-        // Only calculate the mean if there is at least one entry in the array otherwise
-        // return 0.0
+        // Only calculate the mean if there is at least one entry in the array otherwise return 0.0
         if (arr.length > 0) {
             BigDecimal arrayLength = new BigDecimal(arr.length);
 

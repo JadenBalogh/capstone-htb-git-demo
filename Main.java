@@ -13,7 +13,11 @@ public class Main {
 
     // Assigned to Athena
     public static int getSum(int[] arr) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        return sum;
     }
 
     // Assigned to Jared
